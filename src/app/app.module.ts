@@ -7,6 +7,7 @@ import { AdminComponent } from './admin/admin.component';
 import { SurveyComponent } from './survey/survey.component';
 import { LoginComponent } from './login/login.component';
 import { SurveyRequestComponent } from './survey-request/survey-request.component';
+import { TextInputComponent } from './components/text-input/text-input.component';
 
 // CanActivate Guards with all but Survey
 
@@ -16,7 +17,8 @@ import { SurveyRequestComponent } from './survey-request/survey-request.componen
     AdminComponent,
     SurveyComponent,
     LoginComponent,
-    SurveyRequestComponent
+    SurveyRequestComponent,
+    TextInputComponent
   ],
   imports: [
     BrowserModule,
