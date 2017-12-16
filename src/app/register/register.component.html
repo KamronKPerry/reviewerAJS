@@ -1,0 +1,8 @@
+<div>
+Register  
+  <app-text-input [inputName]="'Email'" [(ngModel)]="email" ngDefaultControl></app-text-input>
+  <app-text-input [inputName]="'Confirm Email'" [(ngModel)]="confirmEmail" ngDefaultControl></app-text-input>
+  <app-text-input [inputName]="'Password'" [(ngModel)]="password" ngDefaultControl></app-text-input>
+  <app-text-input [inputName]="'Confirm Password'" [(ngModel)]="confirmPassword" ngDefaultControl></app-text-input>  
+  <button (click)="register()" class="registerBtn">Register</button>  
+</div>

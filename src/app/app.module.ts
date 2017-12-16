@@ -8,6 +8,7 @@ import { SurveyComponent } from './survey/survey.component';
 import { LoginComponent } from './login/login.component';
 import { SurveyRequestComponent } from './survey-request/survey-request.component';
 import { TextInputComponent } from './components/text-input/text-input.component';
+import { RegisterComponent } from './register/register.component';
 
 // CanActivate Guards with all but Survey
 
@@ -18,7 +19,8 @@ import { TextInputComponent } from './components/text-input/text-input.component
     SurveyComponent,
     LoginComponent,
     SurveyRequestComponent,
-    TextInputComponent
+    TextInputComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +41,10 @@ import { TextInputComponent } from './components/text-input/text-input.component
       {
         path: 'SurveyRequest',
         component: SurveyRequestComponent
+      },
+      {
+        path: 'Register',
+        component: RegisterComponent
       }
     ])
   ],

@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
   public email = '';
   public password = '';
+
   public login = () => {
     if (!!this.password && !!this.email) {
     alert('Login Success');
